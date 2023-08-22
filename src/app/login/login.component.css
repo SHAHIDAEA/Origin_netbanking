@@ -1,0 +1,26 @@
+#g{
+    background-image: url("https://i.postimg.cc/k5Hn9xqX/desktop-wallpaper-website-background-website-login-page-background.jpg");
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+
+}
+.form-box{
+    width:90%;
+    max-width: 450px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1::after{
+    content:'';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c00ac;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}

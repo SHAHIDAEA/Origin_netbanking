@@ -1,0 +1,12 @@
+#home{
+    background-image: url("https://i.postimg.cc/25LPmtzL/signup-bg.jpg" );
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+#g{
+    transition: .5s ease-in-out;
+}
+#g:hover{
+    transform: scale(1.05);
+}
